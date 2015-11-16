@@ -1,0 +1,36 @@
+/*
+####################
+##### Modules ###### //any re-usable elements in your page
+####################
+*/
+
+.top-nav{
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  float: left;
+  clear: both;
+  width: 920px;
+  position: relative;
+  left: 50%;
+  margin-left: -460px;
+  li{
+    float: left;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+    background: yellow;
+    cursor: pointer;
+  }
+  .focused{
+    background: black;
+    color: white;
+  }
+}
+
+.menu-output{
+  float: left;
+  clear: both;
+}
+
+
